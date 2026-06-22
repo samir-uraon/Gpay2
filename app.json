@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Pay-Master",
-    "slug": "pay-master",
+    "name": "Master",
+    "slug": "master",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.jpg",
@@ -21,7 +21,7 @@
       "permissions": [
         "android.permission.CAMERA"
       ],
-      "package": "com.samir.paymaster"
+      "package": "com.samir.master"
     },
     "web": {
       "output": "static",

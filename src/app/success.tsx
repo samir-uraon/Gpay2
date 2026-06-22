@@ -172,10 +172,7 @@ const player = useAudioPlayer(
   </TouchableOpacity>
 )}
 
-      {/* TRANSACTION ID */}
-      <Text style={styles.txn}>
-        UPI transaction ID: <Text>{txn}</Text>
-      </Text>
+  
 
       {/* BUTTONS */}
       <View style={styles.buttonRow}>
@@ -201,17 +198,7 @@ const player = useAudioPlayer(
         </TouchableOpacity>
       </View>
 
-      {/* POWERED BY */}
-      <Text style={styles.powered}>POWERED BY</Text>
-
-      <Image
-        source={require("@/assets/images/upi.jpg")}
-        style={styles.upiLogo}
-      />
-
-      <Text style={styles.footer}>
-        Unified Payments Interface
-      </Text>
+    
 
     </View>
  

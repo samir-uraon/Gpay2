@@ -41,7 +41,7 @@ export default function HomeScreen() {
         <View style={styles.hero}>
           <AnimatedIcon />
 
-          <Text style={styles.title}>Welcome to Gpay</Text>
+          <Text style={styles.title}>Welcome to Pay</Text>
 
           <Text style={styles.subtitle}>
             Scan QR or create a link to continue

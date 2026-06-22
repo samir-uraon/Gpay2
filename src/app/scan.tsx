@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
 
   topBar: {
     position: "absolute",
-    top: 40,
+    top: 49,
     width: "100%",
     flexDirection: "row",
     justifyContent: "space-between",
@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
 
   title: {
     color: "#fff",
-    fontSize: 18,
+    fontSize: 12,
     fontWeight: "600",
   },
 

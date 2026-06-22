@@ -1,4 +1,4 @@
-package com.samiruraon.myapp
+package com.samir.qrmaster
 
 import android.app.Application
 import android.content.res.Configuration

@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.samiruraon.myapp'
+    namespace 'com.samir.qrmaster'
     defaultConfig {
-        applicationId 'com.samiruraon.myapp'
+        applicationId 'com.samir.qrmaster'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -21,7 +21,7 @@
       "permissions": [
         "android.permission.CAMERA"
       ],
-      "package": "com.samir.qrmaster"
+      "package": "com.samir.paymaster"
     },
     "web": {
       "output": "static",

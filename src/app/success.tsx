@@ -95,12 +95,12 @@ const player = useAudioPlayer(
       onBlur={() => setEditAmount(false)}
     />
 
-    <Text style={{ fontSize: 40 }}>.00</Text>
+    <Text style={{ fontSize: 40 }}></Text>
   </View>
 ) : (
   <TouchableOpacity onPress={() => setEditAmount(true)}>
     <Text style={styles.amount}>
-      ₹<Text style={styles.amountBold}>{currentAmount}</Text>.00
+      ₹<Text style={styles.amountBold}>{currentAmount}</Text>
     </Text>
   </TouchableOpacity>
 )}
@@ -172,7 +172,17 @@ const player = useAudioPlayer(
   </TouchableOpacity>
 )}
 
-  
+    {/* POWERED BY */}
+      <Text style={styles.powered}>POWERED BY</Text>
+
+      <Image
+        source={require("@/assets/images/upi.jpg")}
+        style={styles.upiLogo}
+      />
+
+      <Text style={styles.footer}>
+        Unified Payments Interface
+      </Text>
 
       {/* BUTTONS */}
       <View style={styles.buttonRow}>
@@ -209,7 +219,7 @@ const styles = StyleSheet.create({
 
 
 upiContainer: {
-marginTop:2,
+
   width: "90%",
   flexDirection: "row",
   justifyContent: "center",
@@ -250,7 +260,7 @@ longUpi: {
   },
 
   amount: {
-    marginTop: 36,
+    marginTop: 46,
     fontSize: 40,
     color: "#000",
     fontWeight: "400",
@@ -286,7 +296,7 @@ timeInput: {
 },
 
   text: {
-    marginTop: 18,
+    marginTop: 30,
     width: "90%",
     textAlign: "center",
     fontSize: 30,
@@ -296,10 +306,10 @@ timeInput: {
   },
 
   name: {
-  fontSize: 30,
+  fontSize: 28,
   fontWeight: "400",
   color: "#111",
-  marginTop: 4,
+
 },
 
   upi: {
@@ -314,10 +324,9 @@ timeInput: {
   },
 
   time: {
-    marginTop: 60,
-    fontSize: 18,
-    color: "black",
-      fontWeight: "500",
+
+    fontSize: 15,
+        color: "black",
   },
 
   txn: {
@@ -327,7 +336,7 @@ timeInput: {
   },
 
   buttonRow: {
-    marginTop: 80,
+    marginTop: 40,
     width: "100%",
     flexDirection: "row",
     justifyContent: "space-evenly",
@@ -368,7 +377,7 @@ shareText: {
   },
 
   powered: {
-    marginTop: 40,
+    marginTop: 90,
     fontSize: 8,
     fontWeight: "600",
     color: "rgb(114,110,110)",
